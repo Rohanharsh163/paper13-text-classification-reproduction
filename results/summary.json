@@ -1,0 +1,1682 @@
+{
+ "Test weighted-F1 (1,000 test examples)|agnews|1|128|ENC": [
+  0.32661683726135277,
+  0.007562596940664634,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|agnews|1|128|MLM": [
+  0.25600040318385475,
+  0.011504094774357584,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|agnews|1|128|AR": [
+  0.333189908801385,
+  0.01289677431615141,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|agnews|1|128|AR_pseudo": [
+  0.25526656801463526,
+  0.016616233048702342,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|agnews|1|512|ENC": [
+  0.46399351476773454,
+  0.02365200709031831,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|agnews|1|512|MLM": [
+  0.32880933553927194,
+  0.0258027181619446,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|agnews|1|512|AR": [
+  0.4337504731353229,
+  0.022924742378088475,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|agnews|1|512|AR_pseudo": [
+  0.260183285476384,
+  0.018384739528380434,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|agnews|1|2048|ENC": [
+  0.6824971476234465,
+  0.012449203968200151,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|agnews|1|2048|MLM": [
+  0.3513129432672203,
+  0.03164255204515343,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|agnews|1|2048|AR": [
+  0.7279203710090404,
+  0.002161999389871494,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|agnews|1|2048|AR_pseudo": [
+  0.28646790150481843,
+  0.010249973245391675,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|agnews|4|128|ENC": [
+  0.36032976423608665,
+  0.014585202770301231,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|agnews|4|128|MLM": [
+  0.3260221825093606,
+  0.011476411713636503,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|agnews|4|128|AR": [
+  0.36286806816625095,
+  0.0032943402925839083,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|agnews|4|128|AR_pseudo": [
+  0.2585791033304633,
+  0.014308279394639717,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|agnews|4|512|ENC": [
+  0.5241128739774663,
+  0.003090347332840415,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|agnews|4|512|MLM": [
+  0.4226538141914888,
+  0.0006833833608239082,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|agnews|4|512|AR": [
+  0.5552139669802121,
+  0.0408790284440656,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|agnews|4|512|AR_pseudo": [
+  0.2998434962648589,
+  0.012804583928244129,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|agnews|4|2048|ENC": [
+  0.7027878134864529,
+  0.012070294338142662,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|agnews|4|2048|MLM": [
+  0.5020118273702677,
+  0.008787544474629622,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|agnews|4|2048|AR": [
+  0.8206028279105841,
+  0.0031331226439109683,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|agnews|4|2048|AR_pseudo": [
+  0.3777688623189141,
+  0.008363100220440067,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|sst2|1|128|ENC": [
+  0.5493446976877061,
+  0.01490532788774146,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|sst2|1|128|MLM": [
+  0.48893912219107805,
+  0.011156933136790781,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|sst2|1|128|AR": [
+  0.5378442932202501,
+  0.023492973344473644,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|sst2|1|128|AR_pseudo": [
+  0.5003216426357558,
+  0.0032249259916950768,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|sst2|1|512|ENC": [
+  0.5508464499257414,
+  0.0002465006032513761,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|sst2|1|512|MLM": [
+  0.4814449198166049,
+  0.006426433652109653,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|sst2|1|512|AR": [
+  0.5598841437022075,
+  0.0018841437022074081,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|sst2|1|512|AR_pseudo": [
+  0.5069771044482184,
+  0.0320851321076954,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|sst2|1|2048|ENC": [
+  0.6400544004020379,
+  0.020934400402037867,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|sst2|1|2048|MLM": [
+  0.4870552782223051,
+  0.019285047804788208,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|sst2|1|2048|AR": [
+  0.583212313680215,
+  0.03568366822289831,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|sst2|1|2048|AR_pseudo": [
+  0.5502710022942244,
+  0.015777606483516005,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|sst2|4|128|ENC": [
+  0.5486379275368168,
+  0.012378062948183777,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|sst2|4|128|MLM": [
+  0.4985667150524896,
+  0.0005490670073987347,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|sst2|4|128|AR": [
+  0.5519959158272574,
+  0.010100490833566456,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|sst2|4|128|AR_pseudo": [
+  0.5119184897348511,
+  0.010400957814441503,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|sst2|4|512|ENC": [
+  0.5823014534802564,
+  0.002204021831540559,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|sst2|4|512|MLM": [
+  0.5024927410778537,
+  0.019387321999416007,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|sst2|4|512|AR": [
+  0.5865932006206156,
+  0.012499471247678251,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|sst2|4|512|AR_pseudo": [
+  0.5300094403468864,
+  0.010042080477446924,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|sst2|4|2048|ENC": [
+  0.6501238250035895,
+  0.009040885967966095,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|sst2|4|2048|MLM": [
+  0.49335979125323465,
+  0.024871299172537442,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|sst2|4|2048|AR": [
+  0.6470179439455703,
+  0.020236185828448494,
+  2
+ ],
+ "Test weighted-F1 (1,000 test examples)|sst2|4|2048|AR_pseudo": [
+  0.5610430396503125,
+  0.0015018803555795768,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|agnews|1|128|ENC": [
+  0.44260385632514954,
+  0.1024310290813446,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|agnews|1|128|MLM": [
+  0.06336660869419575,
+  0.01024913601577282,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|agnews|1|128|AR": [
+  0.16530334204435349,
+  0.020322106778621674,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|agnews|1|128|AR_pseudo": [
+  0.1154504120349884,
+  0.0323130339384079,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|agnews|1|512|ENC": [
+  0.4297538250684738,
+  0.020377203822135925,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|agnews|1|512|MLM": [
+  0.05593905597925186,
+  0.02210971713066101,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|agnews|1|512|AR": [
+  0.15634556859731674,
+  0.0030573084950447083,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|agnews|1|512|AR_pseudo": [
+  0.06284788250923157,
+  0.012511767446994781,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|agnews|1|2048|ENC": [
+  0.21162259578704834,
+  0.005746901035308838,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|agnews|1|2048|MLM": [
+  0.056150367483496666,
+  0.0024627577513456345,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|agnews|1|2048|AR": [
+  0.06283518671989441,
+  0.006833299994468689,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|agnews|1|2048|AR_pseudo": [
+  0.043580420315265656,
+  0.007812980562448502,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|agnews|4|128|ENC": [
+  0.5431817173957825,
+  0.0003555417060852051,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|agnews|4|128|MLM": [
+  0.11281285807490349,
+  0.024900425225496292,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|agnews|4|128|AR": [
+  0.3002348244190216,
+  0.008748114109039307,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|agnews|4|128|AR_pseudo": [
+  0.10582677647471428,
+  0.018300075083971024,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|agnews|4|512|ENC": [
+  0.40232205390930176,
+  0.002375304698944092,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|agnews|4|512|MLM": [
+  0.2065277323126793,
+  0.019982226192951202,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|agnews|4|512|AR": [
+  0.22985970973968506,
+  0.0005367696285247803,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|agnews|4|512|AR_pseudo": [
+  0.05701697804033756,
+  0.005374597385525703,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|agnews|4|2048|ENC": [
+  0.23828233778476715,
+  0.011891230940818787,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|agnews|4|2048|MLM": [
+  0.03863636031746864,
+  0.009952899068593979,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|agnews|4|2048|AR": [
+  0.1100190058350563,
+  0.0016116872429847717,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|agnews|4|2048|AR_pseudo": [
+  0.02553615625947714,
+  0.0069775665178895,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|sst2|1|128|ENC": [
+  0.40948890149593353,
+  0.025221243500709534,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|sst2|1|128|MLM": [
+  0.20618467032909393,
+  0.09359331429004669,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|sst2|1|128|AR": [
+  0.10777543857693672,
+  0.036755841225385666,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|sst2|1|128|AR_pseudo": [
+  0.07411732524633408,
+  0.008102796971797943,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|sst2|1|512|ENC": [
+  0.3520746976137161,
+  0.05572409927845001,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|sst2|1|512|MLM": [
+  0.08508655056357384,
+  0.009732116013765335,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|sst2|1|512|AR": [
+  0.09315193630754948,
+  0.04374301992356777,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|sst2|1|512|AR_pseudo": [
+  0.11290819942951202,
+  0.008725330233573914,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|sst2|1|2048|ENC": [
+  0.12357024848461151,
+  0.05044779181480408,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|sst2|1|2048|MLM": [
+  0.03544589877128601,
+  2.7116388082504272e-05,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|sst2|1|2048|AR": [
+  0.0437443214468658,
+  0.03400486381724477,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|sst2|1|2048|AR_pseudo": [
+  0.07397617027163506,
+  0.007759395986795425,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|sst2|4|128|ENC": [
+  0.40078261494636536,
+  0.022350609302520752,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|sst2|4|128|MLM": [
+  0.05551881715655327,
+  0.009095411747694016,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|sst2|4|128|AR": [
+  0.1807260364294052,
+  0.04347766935825348,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|sst2|4|128|AR_pseudo": [
+  0.1290496550500393,
+  0.05511375144124031,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|sst2|4|512|ENC": [
+  0.35022544860839844,
+  0.049680471420288086,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|sst2|4|512|MLM": [
+  0.0757118072360754,
+  0.03586323745548725,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|sst2|4|512|AR": [
+  0.18424774706363678,
+  0.03666089475154877,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|sst2|4|512|AR_pseudo": [
+  0.1316341832280159,
+  0.05564727634191513,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|sst2|4|2048|ENC": [
+  0.29435883462429047,
+  0.03376112878322601,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|sst2|4|2048|MLM": [
+  0.025386440567672253,
+  0.0037471437826752663,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|sst2|4|2048|AR": [
+  0.07270843908190727,
+  0.01637311652302742,
+  2
+ ],
+ "Test ECE, lower = better calibrated (1,000 test examples)|sst2|4|2048|AR_pseudo": [
+  0.073318000882864,
+  0.03919917717576027,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|agnews|1|128|ENC": [
+  0.34335345340423784,
+  0.0005721256105354622,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|agnews|1|128|MLM": [
+  0.25346938206435354,
+  0.02063967062464732,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|agnews|1|128|AR": [
+  0.30741363483357026,
+  0.00696452771217243,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|agnews|1|128|AR_pseudo": [
+  0.25755377558475656,
+  0.02018650620014882,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|agnews|1|512|ENC": [
+  0.5063598632333632,
+  0.053977760394560065,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|agnews|1|512|MLM": [
+  0.3460419796356847,
+  0.013598505560631663,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|agnews|1|512|AR": [
+  0.4252543823696687,
+  0.027781497118452292,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|agnews|1|512|AR_pseudo": [
+  0.26514070288958835,
+  0.009201089707613852,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|agnews|1|2048|ENC": [
+  0.7123812685931679,
+  0.01422090107832169,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|agnews|1|2048|MLM": [
+  0.38576016494505394,
+  0.020196649905180136,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|agnews|1|2048|AR": [
+  0.7435006689667427,
+  0.00315630671840339,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|agnews|1|2048|AR_pseudo": [
+  0.311282402867816,
+  0.0049061225443658985,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|agnews|4|128|ENC": [
+  0.3702811993108274,
+  0.02061586874194904,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|agnews|4|128|MLM": [
+  0.33353659937303337,
+  0.007094545665134594,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|agnews|4|128|AR": [
+  0.36480629889791083,
+  0.012261181818623484,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|agnews|4|128|AR_pseudo": [
+  0.26453546644199155,
+  0.014797968263772096,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|agnews|4|512|ENC": [
+  0.5438860919831314,
+  0.005161617249013706,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|agnews|4|512|MLM": [
+  0.44417571512716936,
+  0.02258983321490468,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|agnews|4|512|AR": [
+  0.5811180442685505,
+  0.027251536996185544,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|agnews|4|512|AR_pseudo": [
+  0.32192344204215406,
+  0.005420726008690896,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|agnews|4|2048|ENC": [
+  0.7074594400486561,
+  0.005410778698893726,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|agnews|4|2048|MLM": [
+  0.5344970782849684,
+  0.012230779273358583,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|agnews|4|2048|AR": [
+  0.8392329011519518,
+  0.012853803540187725,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|agnews|4|2048|AR_pseudo": [
+  0.40068050927501053,
+  0.00853930396829028,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|sst2|1|128|ENC": [
+  0.5413830955053479,
+  0.01979918342168563,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|sst2|1|128|MLM": [
+  0.4888043886506638,
+  0.0270715803415843,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|sst2|1|128|AR": [
+  0.5328605013607743,
+  0.02426493259906648,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|sst2|1|128|AR_pseudo": [
+  0.5113314118522921,
+  0.015028855775088168,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|sst2|1|512|ENC": [
+  0.5432886562214925,
+  0.009268152139476238,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|sst2|1|512|MLM": [
+  0.489101468677426,
+  0.000858531322573991,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|sst2|1|512|AR": [
+  0.5459545985113293,
+  0.00010897394887299239,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|sst2|1|512|AR_pseudo": [
+  0.5149073824127386,
+  0.037092617587261484,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|sst2|1|2048|ENC": [
+  0.6403909979145902,
+  0.013590997914590286,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|sst2|1|2048|MLM": [
+  0.469298184624392,
+  0.022489663993428194,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|sst2|1|2048|AR": [
+  0.5845873971847197,
+  0.033392738735823935,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|sst2|1|2048|AR_pseudo": [
+  0.5639335429566696,
+  0.02411919641865029,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|sst2|4|128|ENC": [
+  0.5417667403915751,
+  0.0017076448543265066,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|sst2|4|128|MLM": [
+  0.5015154094017185,
+  0.026280421995772796,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|sst2|4|128|AR": [
+  0.5560338205144401,
+  0.00198563690294995,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|sst2|4|128|AR_pseudo": [
+  0.5252404925373672,
+  0.03153731244019306,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|sst2|4|512|ENC": [
+  0.5746946104107624,
+  0.00688147658932986,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|sst2|4|512|MLM": [
+  0.5232692190164842,
+  0.017650172584988355,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|sst2|4|512|AR": [
+  0.59005740836215,
+  0.019997202341548004,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|sst2|4|512|AR_pseudo": [
+  0.5368613842029364,
+  0.015023920456561757,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|sst2|4|2048|ENC": [
+  0.6422352236487276,
+  0.008195694225668404,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|sst2|4|2048|MLM": [
+  0.4908917004905591,
+  0.03799670654608989,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|sst2|4|2048|AR": [
+  0.6685428442095512,
+  0.009038272625429222,
+  2
+ ],
+ "Clean weighted-F1 on the 500-example noise subset|sst2|4|2048|AR_pseudo": [
+  0.5675731355007247,
+  0.004461118200755787,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|agnews|1|128|ENC": [
+  0.3134464147920465,
+  0.018412227562583594,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|agnews|1|128|MLM": [
+  0.1729019244201397,
+  0.007308163076645724,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|agnews|1|128|AR": [
+  0.3033375146540581,
+  0.005462659646052442,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|agnews|1|128|AR_pseudo": [
+  0.2404892442024824,
+  0.008474106090107708,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|agnews|1|512|ENC": [
+  0.48071867432837234,
+  0.03449755740023783,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|agnews|1|512|MLM": [
+  0.20081562743980816,
+  0.011370287874029189,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|agnews|1|512|AR": [
+  0.3949964835923467,
+  0.0035676308243101085,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|agnews|1|512|AR_pseudo": [
+  0.25491476193091944,
+  0.014484395468237932,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|agnews|1|2048|ENC": [
+  0.6603905619348976,
+  0.02067240012399174,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|agnews|1|2048|MLM": [
+  0.22150601110882742,
+  0.05816633105858274,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|agnews|1|2048|AR": [
+  0.6682030333085399,
+  0.02007295454506841,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|agnews|1|2048|AR_pseudo": [
+  0.2915393586558477,
+  0.0335510416171709,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|agnews|4|128|ENC": [
+  0.327244294506266,
+  0.038139881805768244,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|agnews|4|128|MLM": [
+  0.22297699865255263,
+  0.03462432046557515,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|agnews|4|128|AR": [
+  0.36685814794046134,
+  0.012306631178194527,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|agnews|4|128|AR_pseudo": [
+  0.26288658212912797,
+  0.0021095895199085557,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|agnews|4|512|ENC": [
+  0.5173220565589205,
+  0.011828427000073638,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|agnews|4|512|MLM": [
+  0.2839692326997743,
+  0.018266194253959478,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|agnews|4|512|AR": [
+  0.5230929623383147,
+  0.044903950825809724,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|agnews|4|512|AR_pseudo": [
+  0.2748294287325592,
+  0.028369739047588036,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|agnews|4|2048|ENC": [
+  0.6747124089272567,
+  0.011557399909055632,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|agnews|4|2048|MLM": [
+  0.37792009912631563,
+  0.033644501258481285,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|agnews|4|2048|AR": [
+  0.7782657637644588,
+  0.009803151578666403,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|agnews|4|2048|AR_pseudo": [
+  0.3331274358564282,
+  0.0015040210965527878,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|sst2|1|128|ENC": [
+  0.5462090493998948,
+  0.01121491049985468,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|sst2|1|128|MLM": [
+  0.49147844727836154,
+  0.02809898369402755,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|sst2|1|128|AR": [
+  0.538952088601914,
+  0.013083751971535107,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|sst2|1|128|AR_pseudo": [
+  0.4778131220738602,
+  0.03295117835267933,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|sst2|1|512|ENC": [
+  0.5804483924981457,
+  0.01302345046769915,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|sst2|1|512|MLM": [
+  0.46596020813652766,
+  0.009749903194361476,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|sst2|1|512|AR": [
+  0.5438772336476505,
+  0.007929202479151798,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|sst2|1|512|AR_pseudo": [
+  0.4813543393588341,
+  0.04753673935883415,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|sst2|1|2048|ENC": [
+  0.6284442839633166,
+  0.015606987419762464,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|sst2|1|2048|MLM": [
+  0.4647067937569499,
+  0.05309121668841421,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|sst2|1|2048|AR": [
+  0.5789814714195156,
+  0.04906614762810341,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|sst2|1|2048|AR_pseudo": [
+  0.5135162182471241,
+  0.028533247533643946,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|sst2|4|128|ENC": [
+  0.5669898204220656,
+  0.006933496817354945,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|sst2|4|128|MLM": [
+  0.5028931656638798,
+  0.00038409170589809305,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|sst2|4|128|AR": [
+  0.5284096016070389,
+  0.005237479844641957,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|sst2|4|128|AR_pseudo": [
+  0.5067901552058928,
+  0.053990396878989017,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|sst2|4|512|ENC": [
+  0.567723076923077,
+  0.028017948717948826,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|sst2|4|512|MLM": [
+  0.4896493024839333,
+  0.028816171322668283,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|sst2|4|512|AR": [
+  0.5533955410966693,
+  0.006754207570444037,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|sst2|4|512|AR_pseudo": [
+  0.5150648906544238,
+  0.019000362135122933,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|sst2|4|2048|ENC": [
+  0.6574735036302761,
+  0.007448735828418485,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|sst2|4|2048|MLM": [
+  0.4404891227528543,
+  0.033314182838518336,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|sst2|4|2048|AR": [
+  0.6165281553095214,
+  0.018832165808923218,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens dropped (same 500)|sst2|4|2048|AR_pseudo": [
+  0.5403762550198248,
+  0.007573120170178249,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|agnews|1|128|ENC": [
+  0.29306361467618736,
+  0.005614979113606505,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|agnews|1|128|MLM": [
+  0.2528651027955157,
+  0.015188162156246299,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|agnews|1|128|AR": [
+  0.2938556754372643,
+  0.007879038667906846,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|agnews|1|128|AR_pseudo": [
+  0.2504207529281782,
+  0.012085642724718862,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|agnews|1|512|ENC": [
+  0.4110039790392971,
+  0.025621961160930018,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|agnews|1|512|MLM": [
+  0.34013039636109293,
+  0.006927932001062509,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|agnews|1|512|AR": [
+  0.35299486550086634,
+  0.011259008121242059,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|agnews|1|512|AR_pseudo": [
+  0.2727984220910073,
+  0.010546898937937532,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|agnews|1|2048|ENC": [
+  0.5738950098600603,
+  0.0077534650028247,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|agnews|1|2048|MLM": [
+  0.3673573554130325,
+  0.022504611369607463,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|agnews|1|2048|AR": [
+  0.6384560843015196,
+  0.001454896702037023,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|agnews|1|2048|AR_pseudo": [
+  0.2831786346216873,
+  0.022868418446765237,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|agnews|4|128|ENC": [
+  0.3196472941678349,
+  0.02157450866453728,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|agnews|4|128|MLM": [
+  0.30524850510792456,
+  0.0037500067011964344,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|agnews|4|128|AR": [
+  0.34364560079067585,
+  0.0055850696015063706,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|agnews|4|128|AR_pseudo": [
+  0.2466623107005586,
+  0.01367731762566192,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|agnews|4|512|ENC": [
+  0.4503292461021977,
+  0.007367070617428556,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|agnews|4|512|MLM": [
+  0.39844573916113635,
+  0.010689386885950447,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|agnews|4|512|AR": [
+  0.504293191398377,
+  0.007568927638439554,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|agnews|4|512|AR_pseudo": [
+  0.29540276312765373,
+  0.0017245002053037917,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|agnews|4|2048|ENC": [
+  0.584887399502535,
+  0.002358344899711484,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|agnews|4|2048|MLM": [
+  0.4793542111356379,
+  0.004783237761186276,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|agnews|4|2048|AR": [
+  0.7631200854280347,
+  0.009240576376029042,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|agnews|4|2048|AR_pseudo": [
+  0.340137906837949,
+  0.005163578919821332,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|sst2|1|128|ENC": [
+  0.5163601590238425,
+  8.015853218207303e-05,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|sst2|1|128|MLM": [
+  0.486997196188384,
+  0.025430177944868876,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|sst2|1|128|AR": [
+  0.5465049293812418,
+  0.002468448797552536,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|sst2|1|128|AR_pseudo": [
+  0.5095560547499738,
+  0.025067321873402822,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|sst2|1|512|ENC": [
+  0.5483658411154595,
+  0.008564589735260808,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|sst2|1|512|MLM": [
+  0.4812975011628824,
+  0.006184631790132372,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|sst2|1|512|AR": [
+  0.5314235561405026,
+  0.025345859433738682,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|sst2|1|512|AR_pseudo": [
+  0.492500760971166,
+  0.023445030161491992,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|sst2|1|2048|ENC": [
+  0.6047913017976414,
+  0.0053752808770721194,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|sst2|1|2048|MLM": [
+  0.4672060750587067,
+  0.018625466911833505,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|sst2|1|2048|AR": [
+  0.5511831364599198,
+  0.01218032634350058,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|sst2|1|2048|AR_pseudo": [
+  0.5377806174466353,
+  0.005780617446635272,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|sst2|4|128|ENC": [
+  0.5034207648309359,
+  0.003860940901364185,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|sst2|4|128|MLM": [
+  0.5098113359827774,
+  0.01957613268890193,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|sst2|4|128|AR": [
+  0.5437579100578493,
+  0.023965539145146597,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|sst2|4|128|AR_pseudo": [
+  0.5107296561398098,
+  0.028268247424131532,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|sst2|4|512|ENC": [
+  0.5456445148887175,
+  0.003624353130426472,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|sst2|4|512|MLM": [
+  0.5153500919314337,
+  0.017894308028530426,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|sst2|4|512|AR": [
+  0.5561369109874161,
+  0.008657915085776846,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|sst2|4|512|AR_pseudo": [
+  0.5239283101747172,
+  0.006092379839249429,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|sst2|4|2048|ENC": [
+  0.6243059578963446,
+  0.024767023470115057,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|sst2|4|2048|MLM": [
+  0.4760240159204854,
+  0.02600439971579452,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|sst2|4|2048|AR": [
+  0.5921986570618933,
+  0.0138565084546583,
+  2
+ ],
+ "Weighted-F1 with 30% of test tokens substituted (same 500)|sst2|4|2048|AR_pseudo": [
+  0.5532251082953048,
+  0.0003225826186690761,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|agnews|1|128|ENC": [
+  0.0871895947939001,
+  0.05210370006425902,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|agnews|1|128|MLM": [
+  0.3156689881323876,
+  0.026891625138387887,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|agnews|1|128|AR": [
+  0.012349900983742224,
+  0.04014518138488676,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|agnews|1|128|AR_pseudo": [
+  0.057889917113550904,
+  0.10674282315255973,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|agnews|1|512|ENC": [
+  0.04707217613433434,
+  0.03345318928227503,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|agnews|1|512|MLM": [
+  0.42007409163357895,
+  0.010068611293988672,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|agnews|1|512|AR": [
+  0.06772167457512546,
+  0.052515524149644666,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|agnews|1|512|AR_pseudo": [
+  0.03551069293611048,
+  0.08809944248467311,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|agnews|1|2048|ENC": [
+  0.07319152658679406,
+  0.010517329462955027,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|agnews|1|2048|MLM": [
+  0.4321312220877208,
+  0.12105263425957247,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|agnews|1|2048|AR": [
+  0.10114365897440064,
+  0.030813719219601354,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|agnews|1|2048|AR_pseudo": [
+  0.06489134753448861,
+  0.09304504112356554,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|agnews|4|128|ENC": [
+  0.11923217440086431,
+  0.053964630011665626,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|agnews|4|128|MLM": [
+  0.3289649637970599,
+  0.11808302071453708,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|agnews|4|128|AR": [
+  -0.007896876734218516,
+  0.06761023072454625,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|agnews|4|128|AR_pseudo": [
+  0.0026661523645733487,
+  0.06376500048360134,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|agnews|4|512|ENC": [
+  0.048961913051205064,
+  0.012722392625962475,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|agnews|4|512|MLM": [
+  0.35692787861237263,
+  0.07382908408640065,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|agnews|4|512|AR": [
+  0.10149848859917787,
+  0.0351364130715337,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|agnews|4|512|AR_pseudo": [
+  0.14456302303904517,
+  0.10253005592886938,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|agnews|4|2048|ENC": [
+  0.046107467935394664,
+  0.0236320280091743,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|agnews|4|2048|MLM": [
+  0.2911310680547637,
+  0.07916698223050872,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|agnews|4|2048|AR": [
+  0.07260762467092963,
+  0.0025229799922943386,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|agnews|4|2048|AR_pseudo": [
+  0.1681380248713512,
+  0.021482311124674136,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|sst2|1|128|ENC": [
+  -0.011023926793057137,
+  0.05768994068976202,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|sst2|1|128|MLM": [
+  -0.00537067600662533,
+  0.0018044246040344047,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|sst2|1|128|AR": [
+  -0.012413121127251237,
+  0.021548574431216827,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|sst2|1|128|AR_pseudo": [
+  0.06663876072367897,
+  0.03700892701464714,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|sst2|1|512|ENC": [
+  -0.0691178515540638,
+  0.0422099690621609,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|sst2|1|512|MLM": [
+  0.047275896785501204,
+  0.021606654969404893,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|sst2|1|512|AR": [
+  0.0038020753213731107,
+  0.01472240021932214,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|sst2|1|512|AR_pseudo": [
+  0.06697197432633772,
+  0.025107986496026524,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|sst2|1|2048|ENC": [
+  0.018730591073742753,
+  0.0035455790865087655,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|sst2|1|2048|MLM": [
+  0.012938084613191791,
+  0.06582707302688673,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|sst2|1|2048|AR": [
+  0.011157446989277897,
+  0.027448396393466856,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|sst2|1|2048|AR_pseudo": [
+  0.0899021748251943,
+  0.011672331625381116,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|sst2|4|128|ENC": [
+  -0.046527143021418804,
+  0.009499291379425956,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|sst2|4|128|MLM": [
+  -0.005468040667080509,
+  0.051922697125418416,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|sst2|4|128|AR": [
+  0.049702343428792706,
+  0.006025773298946879,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|sst2|4|128|AR_pseudo": [
+  0.03783055056486134,
+  0.0450196789236737,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|sst2|4|512|ENC": [
+  0.011405331435694444,
+  0.06059033642428313,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|sst2|4|512|MLM": [
+  0.06504352744336844,
+  0.023532873280291133,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|sst2|4|512|AR": [
+  0.06066590859120091,
+  0.043280977580719915,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|sst2|4|512|AR_pseudo": [
+  0.040839114618185124,
+  0.008549702815589644,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|sst2|4|2048|ENC": [
+  -0.02404171495678753,
+  0.02466614725448002,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|sst2|4|2048|MLM": [
+  0.10255163486202201,
+  0.0016009627604463006,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|sst2|4|2048|AR": [
+  0.07801538729906671,
+  0.015704330117084553,
+  2
+ ],
+ "Relative F1 loss, 30% dropped = 1 - drop30 / wf1_500|sst2|4|2048|AR_pseudo": [
+  0.04796390262264588,
+  0.005859993012983955,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|agnews|1|128|ENC": [
+  0.14643705585521927,
+  0.017775631127758595,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|agnews|1|128|MLM": [
+  0.000636923968535319,
+  0.021455698211694685,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|agnews|1|128|AR": [
+  0.04419339053989546,
+  0.003976066479634555,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|agnews|1|128|AR_pseudo": [
+  0.02538599799842134,
+  0.02946339595375347,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|agnews|1|512|ENC": [
+  0.18444284311947684,
+  0.03633776880288714,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|agnews|1|512|MLM": [
+  0.01635115409792376,
+  0.018634219774243954,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|agnews|1|512|AR": [
+  0.16462574800766727,
+  0.0810502064757902,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|agnews|1|512|AR_pseudo": [
+  -0.028740184953499504,
+  0.004078469275249019,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|agnews|1|2048|ENC": [
+  0.19386055734745117,
+  0.02697641715098892,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|agnews|1|2048|MLM": [
+  0.04815053550816267,
+  0.008503835468081256,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|agnews|1|2048|AR": [
+  0.14127661105710027,
+  0.0016886302220526228,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|agnews|1|2048|AR_pseudo": [
+  0.09121596683975769,
+  0.059141835337012616,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|agnews|4|128|ENC": [
+  0.13731426273865704,
+  0.01023409437654127,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|agnews|4|128|MLM": [
+  0.08463756612785933,
+  0.008227204724208348,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|agnews|4|128|AR": [
+  0.05745512209884124,
+  0.016369356934604784,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|agnews|4|128|AR_pseudo": [
+  0.06753867545838832,
+  0.00045822007812446053,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|agnews|4|512|ENC": [
+  0.17181237591034781,
+  0.02140495650642682,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|agnews|4|512|MLM": [
+  0.10185555376364813,
+  0.021612046833027032,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|agnews|4|512|AR": [
+  0.13090132761933798,
+  0.027731623796955207,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|agnews|4|512|AR_pseudo": [
+  0.08203146392610866,
+  0.020814129227290146,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|agnews|4|2048|ENC": [
+  0.17323376706263233,
+  0.0029897180003494728,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|agnews|4|2048|MLM": [
+  0.10249302852593978,
+  0.02948649874037912,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|agnews|4|2048|AR": [
+  0.09031127684631446,
+  0.024943655661541442,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|agnews|4|2048|AR_pseudo": [
+  0.15043892452636481,
+  0.030992870617509716,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|sst2|1|128|ENC": [
+  0.044937602054778036,
+  0.03507611206539207,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|sst2|1|128|MLM": [
+  0.003521995420882107,
+  0.003162934807079354,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|sst2|1|128|AR": [
+  -0.02794853635893585,
+  0.05144226430296456,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|sst2|1|128|AR_pseudo": [
+  0.004052545728067902,
+  0.01975112615710206,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|sst2|1|512|ENC": [
+  -0.00937009938991784,
+  0.001454854434878805,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|sst2|1|512|MLM": [
+  0.015974886845810554,
+  0.010917602481811006,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|sst2|1|512|AR": [
+  0.026606538599795615,
+  0.046619140185713503,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|sst2|1|512|AR_pseudo": [
+  0.041823519271817045,
+  0.0234920765023533,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|sst2|1|2048|ENC": [
+  0.05498677519527062,
+  0.028449734153013995,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|sst2|1|2048|MLM": [
+  0.004072718150229915,
+  0.00803881869237466,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|sst2|1|2048|AR": [
+  0.05524914335255071,
+  0.033130191099302375,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|sst2|1|2048|AR_pseudo": [
+  0.044189085052459776,
+  0.051130153549955315,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|sst2|4|128|ENC": [
+  0.07074779856317731,
+  0.010055570479616083,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|sst2|4|128|MLM": [
+  -0.017289708782674773,
+  0.014274078155252501,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|sst2|4|128|AR": [
+  0.022219079793770802,
+  0.03960913968615831,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|sst2|4|128|AR_pseudo": [
+  0.027351935450131593,
+  0.004581631683234222,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|sst2|4|512|ENC": [
+  0.05048812697973398,
+  0.005063020502269089,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|sst2|4|512|MLM": [
+  0.015166937533941827,
+  0.0009781475577025356,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|sst2|4|512|AR": [
+  0.056900850230459155,
+  0.01728887612583857,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|sst2|4|512|AR_pseudo": [
+  0.023643100751176538,
+  0.015974940281862915,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|sst2|4|2048|ENC": [
+  0.02825084930609545,
+  0.026163100291374253,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|sst2|4|2048|MLM": [
+  0.028567314102299513,
+  0.02221843019273062,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|sst2|4|2048|AR": [
+  0.11375271549394306,
+  0.03270793071074496,
+  2
+ ],
+ "Relative F1 loss, 30% substituted = 1 - sub30 / wf1_500|sst2|4|2048|AR_pseudo": [
+  0.02522385561700652,
+  0.007093374807369324,
+  2
+ ]
+}

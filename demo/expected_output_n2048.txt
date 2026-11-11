@@ -1,0 +1,4 @@
+$ python repro.py --dataset agnews --layers 4 --sizes 2048 --seeds 0 --models ENC AR --out /tmp/demo.jsonl
+agnews L=4 n= 2048 ENC       seed=0 wF1=0.715 ECE=0.226 drop30=0.663 sub30=0.587 (131.1s)
+agnews L=4 n= 2048 AR        seed=0 wF1=0.817 ECE=0.108 drop30=0.768 sub30=0.772 (190.8s)
+(total wall time: 328 s on one CPU core, captured 11 Nov)

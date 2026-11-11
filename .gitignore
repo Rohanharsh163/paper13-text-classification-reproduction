@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.DS_Store
+__MACOSX/
+.vscode/
+.idea/
+*.tmp
+CS_F429_Paper_Presentation_Assignment.docx.pdf
