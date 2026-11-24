@@ -28,10 +28,14 @@ slides, which are built from the same files.
 
 - SST-2 best: 0.650 (ENC, 4 layers, n = 2,048); chance is 0.5, so SST-2 says little.
   At 4 layers, n = 2,048, ENC vs AR differ by 0.003, with seed standard deviations up to 0.020.
-- SST-2 numbers are on the **official 1,821-sentence test set** (fixed random 1,000). The paper uses the 872-sentence
+- SST-2 numbers are on a **fixed random 1,000 of the official 1,821 test sentences**. On all 1,821 (rerun, 4 layers, n = 2,048):
+  ENC 0.651 (0.658, 0.644), AR 0.642 (0.623, 0.660): a seed-dependent near tie. The paper uses the 872-sentence
   dev set as its SST-2 test set. Our old (1 Nov) SST-2 numbers used a merged dev+test set; they are archived and must
   not be quoted.
-- ECE, AG News 4 layers n=2,048: ENC 0.238, MLM 0.039, AR 0.110, AR_pseudo 0.026.
+- ECE, AG News 4 layers n=2,048: ENC 0.238, MLM 0.039, AR 0.110, AR_pseudo 0.026. AR's 0.110 uses summed log-probs; with mean log-prob
+  (the released code) the rerun (seed 0) gives 0.517 (mean confidence 0.30). So do not say "AR is better calibrated than ENC".
+- Naive Bayes baseline (same vocab, same subsets): AG News 0.553 / 0.774 / 0.836 at n = 128 / 512 / 2,048; SST-2 0.579 / 0.694 / 0.759.
+  It beats our best transformer at every size; our small transformers are probably undertrained or overfit (untested).
 - Relative F1 loss with 30% of tokens dropped / substituted (AG News, 4 layers, n=2,048; clean and noisy F1 on the
   **same 500** test examples): ENC 5% / 17%, MLM 29% / 10%, AR 7% / 9%, AR_pseudo 17% / 15%.
 - Even on the same 500 examples, 21 of 96 runs score slightly *higher* with 30% of tokens dropped (before the
@@ -51,24 +55,25 @@ slides, which are built from the same files.
    This matches the paper's text. The released code differs: it scores label + text with the mean token loss.
 3. **Why is AR_pseudo different?** The label comes after the text, so the model learns P(label | text) as a
    next-token prediction. It is not a model of P(text | label), hence "pseudo-generative".
-4. **How does your MLM predict?** Template "the label is [MASK]"; we read the logits over the label tokens only.
+4. **How does your MLM predict?** Template "the label is [MASK]" (but "label" is not in our 3,000-word vocabulary, so it is read as "the [UNK] is [MASK]"); we read the logits over the label tokens only.
    In training we mask the label slot **every time** (plus 15% of other tokens). The paper and its code use plain
    15% random masking, so their label is masked only about 15% of the time. Ours gets a stronger label signal: say
    this is a deliberate difference, not the paper's method.
 5. **What did you simplify, and why?** DIFF, depth (1 and 4 layers), vocabulary, datasets, seeds, training length.
    CPU only, two cores, about 2 hours of compute per full rerun. Mechanisms are faithful; scale is not.
 6. **Which of the paper's claims did you reproduce?** Be precise:
-   - Reproduced: AR_pseudo is weaker than AR (ours stays far below AR at every n on AG News, close to chance at 1 layer); MLM is the least robust to dropped
-     tokens (loses 29%).
+   - Partly: AR_pseudo is weaker than AR (far below at every n, near chance at 1 layer), but that is probably our weak label signal (Q15).
+   - Not reproduced: "MLM is least robust to dropping". It loses 29% here, but a rerun (seed 0) that keeps the label slot's position
+     cuts the loss from 21% to 11%, so much of it is the shifted label slot (Q16).
+   - Not reproduced up to n = 2,048: "1 layer, ENC wins". Our 1-layer AR beats ENC (0.728 vs 0.682).
    - Partly: substitution hurts more than dropping for ENC and AR, but not for MLM and AR_pseudo.
    - **Not reproduced: the paper's two-regimes shape.** In the paper (12 layers) the generative advantage is at
      *low* data and **shrinks** as data grows. Ours (4 layers) is a tie at n = 128 (0.363 vs 0.360) and
      the gap **grows** to 0.821 vs 0.703 at n = 2,048. So "AR beats ENC" is true in our runs, but it is the
      opposite shape from the paper's, at a different depth. Do not call it a reproduction of the two-regimes claim.
-   - Not reproduced: MLM strongest at high data; ENC well calibrated; AR noise-sensitive (different metric too).
-   - **Can't test: the 1-layer claim** ("only ENC keeps improving and wins at high data"). Our 1-layer AR beats ENC at
-     n = 2,048 (0.728 vs 0.682), but our data stops at 2,048 examples while the paper's
-     "high data" goes up to the full dataset (120,000 for AG News). Say "we can't test it", not "we refuted it".
+   - Not reproduced: ENC well calibrated; AR noise-sensitive (different metric too).
+   - Can't test: MLM strongest at high data (no 12-layer or high-data run). Our data stops at 2,048 while the paper's "high data"
+     goes to the full dataset (120,000 for AG News); so say "not seen up to 2,048", not "refuted".
 7. **Why might the gap grow in your runs when the paper's shrinks?** Our ENC is likely under-tuned (one lr, few epochs)
    and our largest n is only 2,048. We have not run an ablation to confirm this, so say "likely", not "because".
 8. **Why is your ENC badly calibrated?** Probably overfitting: high lr, many epochs on tiny data, and we select
@@ -103,8 +108,8 @@ slides, which are built from the same files.
     part dominates and the label is barely learned. A test would be to up-weight the label token's loss.
 16. **Why does dropping tokens hurt MLM much more than substitution, unlike the paper?** MLM (and AR_pseudo) read the
     label from the last position. Dropping tokens shortens the sequence, so the label slot moves to an earlier
-    absolute position than in training; substitution keeps the length. That would also explain AR_pseudo
-    (17% dropped vs 15% substituted). Not tested.
+    absolute position than in training; substitution keeps the length. **Partly tested:** MLM, seed 0, dropping costs 21%; blanking the dropped tokens in place so the label slot
+    keeps its position cuts it to 11%. So about half is position shift; the rest is real. Not tested on AR_pseudo.
 17. **How does a model trained on n = 128 have a 3,000-word vocabulary?** The vocabulary is built from all training
     texts (119,800 for AG News, 6,720 for SST-2; labels not used), not only the n labelled examples. Every model uses
     the same vocabulary, so the comparison is fair, but it is a small amount of unlabelled information.
@@ -117,3 +122,5 @@ slides, which are built from the same files.
 - That AR beats ENC at n=512 in every seed. It does not: seed 0 gives ENC 0.521 vs AR 0.514.
 - That our AR ECE can be compared with the paper's (different probability definition; see Q2).
 - Any SST-2 number from before 11 Nov (merged dev+test).
+- That AR is better calibrated than ENC, or that ENC is "the worst" in general (depends on AR's probability definition).
+- That the paper's "20-100x slower" DIFF figure is right: its Table 5 gives about 20-600x (0.027 s vs 16.2 s small, 1.26 s vs 24.8 s large).
