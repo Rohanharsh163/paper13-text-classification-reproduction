@@ -13,7 +13,6 @@ and token-noise robustness.
 | `make_figs.py` | Builds the four slide figures in `figs/` |
 | `results/agnews.jsonl`, `results/sst2.jsonl` | One row per run (96 runs). The only files `aggregate.py` reads |
 | `logs/` | Console output of the two grid runs |
-| `slides/` | `Paper13_slides.pptx` (editable), `Paper13_slides.pdf` (for presenting/printing), `build_deck.js` (generator) |
 | `demo/` | Live-demo fallback: the exact output of the demo command |
 | `VIVA_PREP.md` | Numbers to know and expected viva questions |
 | `baselines_nb.py` | Naive Bayes / logistic-regression baselines on the same subsets and vocabulary |
