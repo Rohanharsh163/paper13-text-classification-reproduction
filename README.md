@@ -16,6 +16,7 @@ and token-noise robustness.
 | `slides/` | `Paper13_slides.pptx` (editable), `Paper13_slides.pdf` (for presenting/printing), `build_deck.js` (generator) |
 | `demo/` | Live-demo fallback: the exact output of the demo command |
 | `VIVA_PREP.md` | Numbers to know and expected viva questions |
+| `baselines_nb.py` | Naive Bayes / logistic-regression baselines on the same subsets and vocabulary |
 | `AUDIT.md` | Line-by-line comparison of our code with the authors' released code |
 | `CHANGES.md` | What changed on 11 Nov and why |
 | `archive/v1_nov1/` | The original results, figures, logs and scripts, kept unchanged for the record |
@@ -61,7 +62,7 @@ Expected output (same code and seed as the stored grid, so it should match to th
 | ENC | 0.715 | 0.226 | 0.663 | 0.587 |
 | AR | 0.817 | 0.108 | 0.768 | 0.772 |
 
-What it shows: AR beats ENC on F1 and is better calibrated, from 2,048 training examples.
+What it shows: AR beats ENC on F1 from 2,048 training examples. Its lower ECE holds only with our summed log-prob scoring (mean log-prob, as in the released code, gives about 0.52).
 Timing from our runs: ENC about 2.7 minutes, AR about 4 minutes (one core).
 
 **Fallback** if the live run is slow or fails: `demo/expected_output_n2048.txt` is the captured console output of
